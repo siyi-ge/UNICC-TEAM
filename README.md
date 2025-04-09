@@ -35,16 +35,17 @@ The UNICC Media Analysis Tool is a web application for analyzing media content i
 - Google Cloud service account + deployed Vertex AI model
 - OpenAI API Key
 
-### Frontend Setup
+### Frontend & Backend Setup
 
 ```bash
 cd frontend
 npm install
 npm start
 
-### Backend Setup
-```bash
+
 cd backend
 pip install -r requirements.txt
 uvicorn call_gemini_audio:app --reload
-Ensure your service_account.json（need to be added manually） is in the correct backend folder and NOT pushed to GitHub.
+```
+
+⚠️ Ensure your service_account.json (need to be added manually!!) is in the correct backend folder and NOT pushed to GitHub.
