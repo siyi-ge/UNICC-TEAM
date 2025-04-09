@@ -43,7 +43,7 @@ npm install
 npm start
 
 ### Backend Setup
-bash
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn call_gemini_audio:app --reload
